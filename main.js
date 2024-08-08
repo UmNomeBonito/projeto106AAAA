@@ -40,7 +40,7 @@ function gotResults(error, results) {
     } else if (results[0].label == "mugido") {
         document.getElementById("Fotos").innerHTML = '<img id="animal_image" src="vaquinha_dancante.gif" width="300" height="300">';
         vaca++;
-    } else if (results[0].label == "Rugido") {
+    } else if (results[0].label == "rugido") {
         document.getElementById("Fotos").innerHTML = '<img id="animal_image" src="leao.jpg" width="300" height="300">';
         leao++;
     } else {
